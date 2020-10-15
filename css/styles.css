@@ -1,0 +1,309 @@
+/*-------------------------------------------------------------*/
+/*-------------------------- CABECERA -------------------------*/
+/*-------------------------------------------------------------*/
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray);
+    box-shadow: 2px 0 2px #c2c2c2 inset;
+    border-bottom: 1px solid var(--orange);
+    z-index: 10;
+}
+
+.header__nav__menu__language__sm{
+    display: none;
+}
+
+.header__h1{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.header__h1__main{
+    font-size: 2rem;
+    color: var(--dark-blue);
+}
+
+.header__h1__trailing{
+    font-size: 1.2rem;
+}
+
+.header__nav__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav__menu__item{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.header__nav__menu__item__a{
+    margin-right: 1rem;
+    font-style: italic;
+    color: var(--orange);
+}
+
+.header__nav__menu__language{
+    margin-right: 2rem;
+    margin-left: 3rem;
+}
+
+.header__nav__menu__language__sel{
+    border-radius: 4px;
+    padding: 0.125rem 0.25rem;
+    cursor: pointer;
+}
+
+.header__nav__menu__language__sel:focus{
+    outline: none;
+}
+
+/*-------------------------------------------------------------*/
+/*----------------------- BODY GENERAL ------------------------*/
+/*-------------------------------------------------------------*/
+#root{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 5rem;
+    padding: 1rem;    
+}
+
+.root_body{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #c2c2c2;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    height: 90%;  
+    overflow-y: hidden;  
+}
+
+.root_body_h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-blue);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/*-------------------------------------------------------------*/
+/*----------------------- PÁGINA ABOUT ------------------------*/
+/*-------------------------------------------------------------*/
+.root_body_about{
+    display: flex;
+}
+
+.about_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 9999px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about_paragraph{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about_list{
+    list-style: circle;
+    margin-left: 1.5rem;
+}
+
+.about_list_item{
+    margin-left: 1.5rem;
+}
+
+/*-------------------------------------------------------------*/
+/*--------------------- PÁGINA CURRÍCULUM ---------------------*/
+/*-------------------------------------------------------------*/
+.curriculum_h2{
+    color: var(--orange);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.curriculum_h3{
+    margin-left: 1rem;
+    color: var(--dark-blue);
+}
+
+.curriculum_paragraph{
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.curriculum_paragraph_list{
+    margin-left: 1.5rem;
+    list-style: circle;
+}
+
+.curriculum_paragraph_list_line{
+    margin-left: 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+/*-------------------------------------------------------------*/
+/*---------------------- PÁGINA PROYECTOS ---------------------*/
+/*-------------------------------------------------------------*/
+.root_body_project{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #c2c2c2;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    height: 90%;  
+    overflow-y: hidden;  
+}
+
+.projects_img_row{
+    display: grid;   
+    grid-gap: 0.75rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projects_project_img{
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    margin-right: 2rem;
+    border: 1px solid #c2c2c2;
+}
+
+.projects_project_img:hover{
+    cursor: pointer;
+}
+
+.projects_project_title{
+    color: var(--orange);
+}
+
+/*-------------------------------------------------------------*/
+/*------------------ DETALLE DE LOS PROYECTOS -----------------*/
+/*-------------------------------------------------------------*/
+.project_detail_h2{
+    font-size: 1.2rem;
+    color: var(--orange);
+    margin-bottom: 1rem;
+}
+
+.project_description{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.project_list{
+    list-style: circle;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project_list_item{
+    margin-left: 1rem;
+}
+
+.project_slider_container{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    width: 700px;
+    margin: 2rem auto;
+    height: auto;
+    background-color: #f2f2f2;
+    border: 1px solid #c2c2c2;
+}
+
+.project_slider_sm{
+    display: none;
+}
+
+.project_slider{
+    display: flex;
+    justify-content: start;
+    width: 700px;
+    height: auto;
+    overflow: hidden;    
+}
+
+.project_slider_img{
+    width: 100%;
+    height: 100%;
+    transform: unset;
+}
+
+.project_slide{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:#e0dfdf;
+    border-radius: 9999px;
+    z-index: 10;
+}
+
+#todolist_slider_prev{
+    left: 20px;
+}
+
+#todolist_slider_next{
+    right: 20px;
+}
+
+.project_left_arrow,
+.project_right_arrow{
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    z-index: 20;
+    top: 2%;
+}
+
+.project_left_arrow{
+    left: 23%;
+}
+
+.project_right_arrow{
+    right: 23%;
+}
+
+.project_left_arrow:hover,
+.project_right_arrow:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+/*-------------------------------------------------------------*/
+/*-------------------------- GENÉRICOS ------------------------*/
+/*-------------------------------------------------------------*/
+
+.link{
+    font-style: italic;
+    color: var(--light-blue);
+}
+
+.dark_blue{
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-style: normal;
+}

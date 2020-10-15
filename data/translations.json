@@ -1,0 +1,274 @@
+{
+    "labels": [
+        {
+            "label": "header.title",
+            "es-ES": "de Alberto Rodríguez",
+            "en-US": "- Alberto Rodríguez"
+        },
+        {
+            "label": "header.language",
+            "es-ES": "Idioma",
+            "en-US": "Language"
+        },
+        {
+            "label": "header.language.default",
+            "es-ES": "--Selecciona--",
+            "en-US": "--Select--"
+        },
+        {
+            "label": "header.language.english",
+            "es-ES": "Inglés",
+            "en-US": "English"
+        },
+        {
+            "label": "header.language.spanish",
+            "es-ES": "Español",
+            "en-US": "Spanish"
+        },
+        {
+            "label": "about.title",
+            "es-ES": "Éste soy yo",
+            "en-US": "This is me"
+        },
+        {
+            "label": "about.paragraph1",
+            "es-ES": "Mi nombre es Alberto Rodríguez, y soy ingeniero de software.",
+            "en-US": "My name is Alberto Rodríguez, and I am Software Engineer."
+        },
+        {
+            "label": "about.paragraph2",
+            "es-ES": "Me encantan la programación web, y tengo un permanente deseo de aprender y mejorar. Me gusta embarcarme en proyectos desafiantes y a la vez motivadores, principalmente enfocados en las tecnologías frontend.",
+            "en-US": "I love web development, and I have a permanent wish of learning and improving my skills. I like to go through demanding, but also inspiring, projects, mainly focused in frontend technologies."
+        },
+        {
+            "label": "about.paragraph3",
+            "es-ES": "Me describo como una persona imaginativa y perfeccionista, aunque no carente de sentido práctico. Rápido en el aprendizaje y creativo en la ejecución, estoy especialmente preparado para la resolución de problemas. Mi objetivo es ser cada vez más eficiente, adiestrando diariamente mis habilidades en programación mediante formación autodidacta y practicando incluso en mi tiempo libre.",
+            "en-US": "I describe myself as an imaginative and perfectionist person, but this does not mean that I had a lack of a practical sense. I learn quickly and try to be creative in the execution, but I think that my main strength is my ability to solve problems and complex situations. My goal is to be more and more efficient, sharping my programming skills every day by doing autotrainings and practicing even during my free time."
+        },        
+        {
+            "label": "curriculum.title",
+            "es-ES": "Mi currículum",
+            "en-US": "My curriculum"
+        },
+        {
+            "label": "projects.title",
+            "es-ES": "Mis proyectos",
+            "en-US": "See my projects"
+        },
+        {
+            "label": "about.email.text",
+            "es-ES": "Correo electrónico: ",
+            "en-US": "E-mail: "
+        },
+        {
+            "label": "about.email",
+            "es-ES": "konfuncio@gmail.com",
+            "en-US": "konfuncio@gmail.com"
+        },
+        {
+            "label": "about.linkedin.text",
+            "es-ES": "Perfil LinkedIn",
+            "en-US": "LinkedIn Profile"
+        },
+        {
+            "label": "about.linkedin.link",
+            "es-ES": "https://www.linkedin.com/in/alberto-rodriguez-537035107/",
+            "en-US": "https://www.linkedin.com/in/alberto-rodriguez-537035107/"
+        },
+        {
+            "label": "curriculum.education",
+            "es-ES": "Educación",
+            "en-US": "Education"
+        },
+        {
+            "label": "curriculum.education.first",
+            "es-ES": "Licenciatura en Matemáticas, especializándome en las ramas de Análisis Matemático, Análisis Numérico y Computación.",
+            "en-US": "Degree in Mathematics, oriented to Computing and Calculus."
+        },
+        {
+            "label": "curriculum.education.second",
+            "es-ES": "Estudios de B.U.P. y C.O.U. en el instituto Alexandre Satorras de Mataró, obteniendo en el último Matrícula de Honor.",
+            "en-US": "Secondary school in Alexandre Satorras, Mataró, with Honours."
+        },
+        {
+            "label": "curriculum.other.trainings.title",
+            "es-ES": "Otras Formaciones",
+            "en-US": "Other Trainings"
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph1",
+            "es-ES": "Formaciones no regladas a lo largo de mi carrera laboral, entre las que se incluyen un curso de MSCE 2003, un curso de administración SQL-Server, un curso de redes y comunicaciones, un curso de HTML5 y Javascript, destinado al desarrollo de una nueva Intranet de Ventas con los modernos conceptos de programación Webdinámica, y un curso de programación Java.",
+            "en-US": "Along my career I accomplished several non formal education degrees, including the following trainings: MSCE 2003, Introduction to SQL-Server Administration course, Basic Net and Communications course, Basics of Development and Administration of SharePoint Core 2013 course, HTML5 with CSS3 and Javascript course –aimed at developping a new modern and dynamic Sales Intranet–, and Introduction to Programming in Java course."
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph2",
+            "es-ES": "En mayo de 2018 participé en un curso reglado de Qlik Sense impartido por la multinacional Qlik.",
+            "en-US": "In May 2018 I joined an oficial development-oriented Qlik Sense training."
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph3",
+            "es-ES": "En octubre/noviembre de 2019 llevé a cabo un amplio curso de PHP y MySQL destinado a cubrir la necesidad de migrar parciamente el frontend de nuestro ERP a entornos Web.",
+            "en-US": "In October/November 2019 I took a detailed course of PHP and MySQL aimed at covering the new needs of partially migrating our ERP Frontend to a Web-based one."
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph4",
+            "es-ES": "Actualmente me estoy formando a nivel peronal en las más modernas techonolgías web (CSS3, Bootstrap, Javascript ES6, Angular, React, Node.js, etc.). Dentro de área realicé los siguientes cursos en Udemy:",
+            "en-US": "Due to my persistent need of knowledge and learning, I am currently training myself in modern web technologies (CSS3, Bootstrap, Javascript ES6, Angular, React, Node.js, etc.) and also in ‘old’ ones, like jQuery. Within this área, I have taken the following Udemy trainings:"
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph4.line1",
+            "es-ES": "Máster en Javascript: JS, JQuery, Typescript, Angular y MEAN Stack - impartido por Víctor Robles",
+            "en-US": "Máster en Javascript: JS, JQuery, Typescript, Angular y MEAN Stack - by Víctor Robles"
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph4.line2",
+            "es-ES": "Aprender React – impartido por Miguel Ángel Durán",
+            "en-US": "Aprender React – by Miguel Ángel Durán"
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph4.line3",
+            "es-ES": "Máster en CSS: CSS3, Maquetación web, Responsive Web Design, SASS, LESS, Flexbox, CSS Grid Layout y Bootstrap 4 – impartido por Víctor Robles",
+            "en-US": "Máster en CSS: CSS3, Maquetación web, Responsive Web Design, SASS, LESS, Flexbox, CSS Grid Layout y Bootstrap 4 – by Víctor Robles"
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph4.line4",
+            "es-ES": "React – La guía completa: React Hooks, Firestore, Redux, Context, MERN Stack, Next.js, Styled Components, Custom Hooks… - impartido por Juan Pablo de la Torre Valdez",
+            "en-US": "React – La guía completa: React Hooks, Firestore, Redux, Context, MERN Stack, Next.js, Styled Components, Custom Hooks… - by Juan Pablo de la Torre Valdez"
+        },
+        {
+            "label": "curriculum.other.trainings.paragraph5",
+            "es-ES": "Inglés nivel alto (B2/C1).",
+            "en-US": "High Level of English (B2/C1)."
+        },
+        {
+            "label": "curriculum.work.experience.title",
+            "es-ES": "Experiencia Laboral",
+            "en-US": "Work Experience"
+        },
+        {
+            "label": "curriculum.work.experience.paragraph1.title",
+            "es-ES": "Analista y desarrollador de software | Núñez y Navarro",
+            "en-US": "Senior Software Engineer | Núñez y Navarro"
+        },
+        {
+            "label": "curriculum.work.experience.paragraph1.text",
+            "es-ES": "Desde 2007 hasta la fecha me dedico al análisis y desarrollo de proyectos, tanto de forma autónoma liderándolos en el apartado técnico como en equipo, en diferentes entornos empresariales. Concretamente trabajo en el ERP de la compañía, un desarrollo propio en lenguaje de cuarta generación Progress, en su aplicativo CRM Dynamics. En los últimos dos años me he familiarizado con la solución BI de Qlik Sense, realizando programas de interface contra nuestro ERP. Por otro lado, fui el encargado de desarrollar completamente la Intranet de Ventas de la empresa, actualmente en funcionamiento, con las tecnologías web HTML5, CSS3, Javascript y el leguaje de script web de Progress, Webspeed. En la actualidad estoy involucrado activamente en la transformación tecnológica de mi empresa para llevar nuestro ERP a entornos Web.",
+            "en-US": "From 2007 I analyse and develop software projects, leading them on my own from a technical side, as well as with teammates in collaborative work. I mostly work on the company ERP, self-developed with the 4GL programming language Progress, but I also give a lightweight technical support of Microsoft CRM Dynamics 2011. In the latest years I have been familiarized with our BI tool Qlik Sense, as I am the only member in the company that work with it. I also developed a whole Sales Intranet Site with HTML5, Javascript, CSS3 and the Progress web scripting, server-side language Webspeed. Currently I am actively involved in our technological transformation process, which consists on migrating our company ERP to web environments."
+        },
+        {
+            "label": "curriculum.work.experience.paragraph2.title",
+            "es-ES": "Responsable de informática | Stabilit Europa",
+            "en-US": "IT Responsible and Senior Software Engineer | Stabilit Europa"
+        },
+        {
+            "label": "curriculum.work.experience.paragraph2.text",
+            "es-ES": "Desde 2007 hasta la fecha me dedico al análisis y desarrollo de proyectos, tanto de forma autónoma liderándolos en el apartado técnico como en equipo, en diferentes entornos empresariales. Concretamente trabajo en el ERP de la compañía, un desarrollo propio en lenguaje de cuarta generación Progress, en su aplicativo CRM Dynamics. En los últimos dos años me he familiarizado con la solución BI de Qlik Sense, realizando programas de interface contra nuestro ERP. Por otro lado, fui el encargado de desarrollar completamente la Intranet de Ventas de la empresa, actualmente en funcionamiento, con las tecnologías web HTML5, CSS3, Javascript y el leguaje de script web de Progress, Webspeed. En la actualidad estoy involucrado activamente en la transformación tecnológica de mi empresa para llevar nuestro ERP a entornos Web.",
+            "en-US": "From 2004 to 2007 I led the Software and Technology Infraestructure of our company, a Division of the Mexican multinational Statilit. As engineer, I was the only one in charge of maintaining and customizing our MFG/PRO ERP, and as IT Responsible, I also had to manage and coordinate the consultancy support given by our hardware and sofware provider."
+        },
+        {
+            "label": "curriculum.work.experience.paragraph3.title",
+            "es-ES": "Programador | TRW-QAD",
+            "en-US": "Software Engineer | TRW-QAD"
+        },
+        {
+            "label": "curriculum.work.experience.paragraph3.text",
+            "es-ES": "Desde 2001 hasta 2004 participé en el desarrollo de aplicaciones y personalizaciones dentro del software ERP MFG/PRO y el aplicativo de reporting Optio DCL, tanto en las oficinas de la compañía como en las de sus clientes internacionales. También participé en proyectos piloto de tecnología JIT.",
+            "en-US": "From 2001 to 2004 I joined a dynanimc and international young team, where I was in charge of developing and customizing MFG/PRO applications for a variety of customers abroad, remotely and on premise. I also got trained and worked with the reporting tool Optio DCL. Finally, I will mention that I joined little projects with JIT technology, mostly related to automative business."
+        },
+        {
+            "label": "curriculum.work.experience.paragraph4.title",
+            "es-ES": "Responsable de la planificación de materiales | Gedas Iberia",
+            "en-US": "Materials Forecasting Responsible | Gedas Iberia"
+        },
+        {
+            "label": "curriculum.work.experience.paragraph4.text",
+            "es-ES": "En esta empresa, la división informática de SEAT de 1999 a 2001, desarrollé mi trabajo en el departamento de Logística, en la sede de Martorell. Entre mis tareas se incluyeron desplazamientos a la empresa matriz Volkswagen, en Wolfsburg para programas de formación o asimilación de la metodología de la multinacional.",
+            "en-US": "Gedas Iberia was the former Computing and Software Engineering Division of the Spanish automotive company SEAT. I was working there from 1999 to 2001 being part of the Logistics Department. My tasks and responsabilities included business trips to Volkswagen Company in Wolfsburg, Germany, to get trained by Volkswagen & Audi experts."
+        },
+        {
+            "label": "curriculum.work.experience.paragraph5.title",
+            "es-ES": "Programador Junior | Loyal Systems",
+            "en-US": "Junior Software Engineer | Loyal Systems"
+        },
+        {
+            "label": "curriculum.work.experience.paragraph5.text",
+            "es-ES": "De 1998 a 1999 desarrolle el cien por cien de mi jornada laboral en las instalaciones de SEAT, en Martorell. Allí participaba en el mantenimiento de la aplicación responsable de la gestión logística de los automóviles recién salidos de la cadena de producción. Programaba en Fortran sobre plataformas VAX Station.",
+            "en-US": "From 1998 to 1999 developed all my working time within SEAT facilities in Martorell, which was our customer. There I collaborated with the maintenance of the Postmanufacturing Department, being part of the Logistics Division and using Fortran computer language over VAX Stations."
+        },
+        {
+            "label": "projects.project1.title",
+            "es-ES": "TODO List",
+            "en-US": "TODO List"
+        },
+        {
+            "label": "projects.project1.description",
+            "es-ES": "Aplicación de tareas con registro de usuarios",
+            "en-US": "Simple task application with user registration"
+        },
+        {
+            "label": "project1.long.description",
+            "es-ES": "Esta es un aplicación para gestionar tareas de forma ordenada. Podrás introducir la descripción de la tarea, asignarle un color para otorgarle un nivel o categoría y una fecha de cumplimiento. Una vez creada la tarea, podrás marcarla como completada o borrarla. Tendrás una lista de tarjetas, cada una de ellas conteniendo la información de la tarea. Verás también en cada tarjeta, en el extremo inferior derecho, el tiempo que falta para que la tarea expire. Cuando se complete o expire la tarea, se tachará la descripción y se el asignará un color distintivo para un caso y para el otro.",
+            "en-US": "This is an application to manage an accurate list of your pending tasks. You will be able to enter the task description, assign a color to it in order to give it a level or category and, finally, a due date. Once the task is created, you will be able to set it as completed or remove it. You will find a list of cards, each of them containing task information. Also, you will see in every card, at the right-bottom edge, the time left for the task to expire. When a task is completed or expired, it will be crossed and a different color will be assigned to it."
+        },
+        {
+            "label": "projects.project1.tecnologies",
+            "es-ES": "Tecnologías utilizadas",
+            "en-US": "Used technologies"
+        },
+        {
+            "label": "projects.project1.tecnology1",
+            "es-ES": "React - create-react-app",
+            "en-US": "React - create-react-app"
+        },
+        {
+            "label": "projects.project1.tecnology2",
+            "es-ES": "Gestión de fechas con date-fns",
+            "en-US": "Dates management with date-fns"
+        },
+        {
+            "label": "projects.project1.tecnology3",
+            "es-ES": "Validación de formularios con Formik & Yup",
+            "en-US": "Form validation with Formik & Yup"
+        },
+        {
+            "label": "projects.project1.tecnology4",
+            "es-ES": "Styled Components",
+            "en-US": "Styled Components"
+        },
+        {
+            "label": "projects.project1.tecnology5",
+            "es-ES": "Firebase Cloud Firestore & Authentication",
+            "en-US": "Firebase Cloud Firestore & Authentication"
+        },
+        {
+            "label": "projects.project1.links",
+            "es-ES": "Enlaces de la aplicación",
+            "en-US": "Application Links"
+        },
+        {
+            "label": "projects.project1.link1.text",
+            "es-ES": "Enlace a la página web de la aplicación",
+            "en-US": "Link to the application web site"
+        },
+        {
+            "label": "projects.project1.link1",
+            "es-ES": "https://adev-todolist.netlify.app",
+            "en-US": "https://adev-todolist.netlify.app"
+        },
+        {
+            "label": "projects.project1.link2.text",
+            "es-ES": "Enlace al repositorio de Github",
+            "en-US": "Link to the Github repository"
+        },
+        {
+            "label": "projects.project1.link2",
+            "es-ES": "https://github.com/albertodevelopments/todolist",
+            "en-US": "https://github.com/albertodevelopments/todolist"
+        },
+        {
+            "label": "project.screenshots",
+            "es-ES": "Galería de imágenes con capturas de pantalla",
+            "en-US": "Image gallery with screenshots"
+        }
+    ]
+}

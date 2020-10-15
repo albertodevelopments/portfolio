@@ -1,0 +1,434 @@
+/*-------------------------------------------------------------*/
+/*------------------------- RESPONSIVE ------------------------*/
+/*-------------------------------------------------------------*/
+@media (max-width: 1200px){
+    .header__h1__main{
+        font-size: 1.5rem;
+    }
+    
+    .header__h1__trailing{
+        font-size: 1rem;
+    }
+
+    .header__nav__menu__item{
+        font-size: 0.9rem;
+    }
+
+    .header__nav__menu__item{
+        margin-right: 0.5rem;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .header__nav__menu__language{
+        margin-right: 1rem;
+        margin-left: 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .header__nav__menu__language__sel{
+        font-size: 0.8rem;
+        padding: 0.1 0.15rem;
+    }
+
+    .root_body{
+        width: 80%;
+    }
+
+    .root_body_h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .about_img{
+        width: 250px;
+        height: 250px;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .curriculum_h2{
+        font-size: 1.3rem;
+    }
+
+    .curriculum_h3{
+        font-size: 1.1rem;
+    }
+
+    .root_body_project{
+        width: 80%;
+    }
+
+    .projects_project_title{
+        font-size: 1.2rem;
+    }
+
+    .projects_project_description{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 992px){
+    .header__h1__main{
+        font-size: 2rem;
+    }
+
+    .header__h1__trailing{
+        display: none;
+    }
+
+    .root_body{
+        width: 90%;
+    }
+
+    .root_body_h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .about_img{
+        width: 200px;
+        height: 200px;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about_paragraph,
+    .about_list_item{
+        font-size: 0.9rem;
+    }
+
+    .curriculum_h2{
+        font-size: 1.1rem;
+    }
+
+    .curriculum_h3{
+        font-size: 1rem;
+    }
+
+    .curriculum_paragraph,
+    .curriculum_paragraph_list_line{
+        font-size: 0.9rem;
+    }
+
+    .root_body_project{
+        width: 90%;
+    }
+
+    .projects_project_title{
+        font-size: 1.1rem;
+    }
+
+    .projects_project_description{
+        font-size: 0.8rem;
+    }
+
+    .project_slider_container,
+    .project_slider{
+        width: 600px;
+    }
+
+    .project_slider_img{
+        transform: unset;
+    }
+
+    .project_detail_h2{
+        font-size: 1.1rem;
+    }
+
+    .project_description{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .header__h1{
+        margin-top: 0.5rem;
+        display: flex;
+    }
+
+    .header__h1__trailing{
+        display: block;
+        line-height: 3rem;
+        margin-left: 0.25rem;
+    }
+
+    .header__nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .header__nav__menu{
+        margin-left: 2rem;
+    }
+
+    .header__nav__menu__language__sm{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+    .header__nav__menu__language{
+        display: none;
+    }
+
+    .project_slider_container,
+    .project_slider{
+        width: 500px;
+    }    
+}
+
+@media (max-width: 700px){
+    .header{
+        height: 5rem;
+    }
+
+    .header__h1{
+        margin-left: 1rem;
+    }
+    
+    .header__h1__main{
+        font-size: 1.5rem;
+        color: var(--dark-blue);
+    }
+    
+    .header__h1__trailing{
+        font-size: 1rem;
+        line-height: 2.2rem;
+    }
+
+    .header__nav__menu{
+        margin-left: 0.8rem;
+    }
+    
+    .header__nav__menu__item{
+        font-size: 0.9rem;
+    }
+
+    .header__nav__menu__item{
+        margin-right: 0.5rem;
+    }
+
+    .header__nav__menu__language__sm{
+        font-size: 0.8rem;
+    }
+    
+    .header__nav__menu__language__sel__sm{
+        font-size: 0.8rem;
+        padding: 0.1 0.15rem;
+    }
+
+    #root{
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;        
+    }
+
+    .root_body{
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 0;
+    }
+
+    .root_body_about{
+        flex-direction: column;
+    }
+
+    .about_img{
+        margin-left: 1rem;
+    }
+
+    .root_body_project{
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+    }
+}
+
+@media (max-width: 560px){
+    .header{
+        height: 6.3rem;
+    }
+
+    .header__nav{
+        flex-direction: column;
+        align-items: flex-start;        
+    }
+
+    .header__nav__menu__language__sm{
+        margin: 0.5rem 0 1rem 1rem;
+    }
+
+    .root_body{
+        padding: 1rem;
+    }
+
+    .about_img,
+    .about_paragraph{
+        margin: 0.5rem;
+    }
+
+    .curriculum_h3,
+    .curriculum_paragraph{
+        margin-left: 0.5rem;
+    }
+
+    .curriculum_paragraph_list{
+        margin-left: 0.8rem;
+    }
+
+    .projects_project_title{
+        margin-top: 1rem;
+    }
+
+    .projects_img_row{
+        grid-template-columns: 1fr;
+    }
+
+    .project_slider_sm{
+        display: flex;
+        justify-content: start;
+        overflow: hidden;    
+    }
+
+    .project_slider{
+        display: none;
+    }
+
+    .project_slider_container,
+    .project_slider-sm{
+        width: 360px;
+    }
+
+    .project_slide{
+        top: 50%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .project_left_arrow,
+    .project_right_arrow{
+        font-size: 1.8rem;
+    }
+
+    #todolist_slider_prev{
+        left: 12px;
+    }
+    
+    #todolist_slider_next{
+        right: 12px;
+    }
+
+    .project_left_arrow,
+    .project_right_arrow{
+        z-index: 20;
+        top: 10%;
+    }
+
+    .project_left_arrow{
+        left: 30%;
+    }
+
+    .project_right_arrow{
+        right: 25%;
+    }
+}
+
+@media (max-width: 412px){
+    .header__h1__main{
+        font-size: 1.3rem;
+    }
+
+    .header__h1__trailing{
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+    }
+
+    .header__nav__menu__item__a{
+        font-size: 0.7rem;
+    }
+
+    .header__nav__menu__language__sm,
+    .header__nav__menu__language__sm__sel{
+        padding: 0;
+        font-size: 0.75rem;
+    }
+
+    .root_body_h1{
+        font-size: 1.4rem;
+    }
+
+    .about_paragraph,
+    .about_list_item,
+    .curriculum_paragraph,
+    .curriculum_paragraph_list,
+    .curriculum_paragraph_list_line,
+    .project_description,
+    .project_list_item{
+        font-size: 0.8rem;
+    }
+
+    .about_img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .curriculum_h2,
+    .project_detail_h2{
+        font-size: 1rem;
+    }
+
+    .curriculum_h3{
+        font-size: 0.9rem;
+    }
+    
+    .project_slider_container,
+    .project_slider-sm{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project_slide{
+        top: 50%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .project_left_arrow,
+    .project_right_arrow{
+        font-size: 1rem;        
+    }
+
+    #todolist_slider_prev{
+        left: 10px;
+    }
+    
+    #todolist_slider_next{
+        right: 10px;
+    }
+
+    .project_left_arrow,
+    .project_right_arrow{
+        z-index: 20;
+        top: 15%;
+    }
+
+    .project_left_arrow{
+        left: 30%;
+    }
+
+    .project_right_arrow{
+        right: 25%;
+    }
+}
