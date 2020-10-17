@@ -76,7 +76,7 @@
     padding: 1rem;    
 }
 
-.root_body{
+.root__body{
     display: block;
     width: 60%;
     margin: 0 auto;
@@ -89,7 +89,7 @@
     overflow-y: hidden;  
 }
 
-.root_body_h1{
+.root__body__h1{
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -104,11 +104,11 @@
 /*-------------------------------------------------------------*/
 /*----------------------- PÁGINA ABOUT ------------------------*/
 /*-------------------------------------------------------------*/
-.root_body_about{
+.root__body__about{
     display: flex;
 }
 
-.about_img{
+.about__img{
     width: 300px;
     height: 300px;
     border-radius: 9999px;
@@ -116,46 +116,46 @@
     margin-bottom: 2rem;
 }
 
-.about_paragraph{
+.about__paragraph{
     text-align: justify;
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
-.about_list{
+.about__list{
     list-style: circle;
     margin-left: 1.5rem;
 }
 
-.about_list_item{
+.about__list__item{
     margin-left: 1.5rem;
 }
 
 /*-------------------------------------------------------------*/
 /*--------------------- PÁGINA CURRÍCULUM ---------------------*/
 /*-------------------------------------------------------------*/
-.curriculum_h2{
+.curriculum__h2{
     color: var(--orange);
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.curriculum_h3{
+.curriculum__h3{
     margin-left: 1rem;
     color: var(--dark-blue);
 }
 
-.curriculum_paragraph{
+.curriculum__paragraph{
     margin-left: 1rem;
     padding: 0.5rem;
 }
 
-.curriculum_paragraph_list{
+.curriculum__paragraph_list{
     margin-left: 1.5rem;
     list-style: circle;
 }
 
-.curriculum_paragraph_list_line{
+.curriculum__paragraph_list_line{
     margin-left: 1.5rem;
     padding: 0.5rem 0.5rem 0.5rem 0;
 }
@@ -163,7 +163,7 @@
 /*-------------------------------------------------------------*/
 /*---------------------- PÁGINA PROYECTOS ---------------------*/
 /*-------------------------------------------------------------*/
-.root_body_project{
+.root__body__project{
     display: block;
     width: 70%;
     margin: 0 auto;
@@ -176,13 +176,13 @@
     overflow-y: hidden;  
 }
 
-.projects_img_row{
+.projects__img__row{
     display: grid;   
     grid-gap: 0.75rem;
     grid-template-columns: 1fr 1fr;
 }
 
-.projects_project_img{
+.projects__project__img{
     width: 100%;
     height: auto;
     border-radius: 3px;
@@ -190,39 +190,39 @@
     border: 1px solid #c2c2c2;
 }
 
-.projects_project_img:hover{
+.projects__project__img:hover{
     cursor: pointer;
 }
 
-.projects_project_title{
+.projects__project__title{
     color: var(--orange);
 }
 
 /*-------------------------------------------------------------*/
 /*------------------ DETALLE DE LOS PROYECTOS -----------------*/
 /*-------------------------------------------------------------*/
-.project_detail_h2{
+.project__detail__h2{
     font-size: 1.2rem;
     color: var(--orange);
     margin-bottom: 1rem;
 }
 
-.project_description{
+.project__description{
     text-align: justify;
     margin-bottom: 1rem;
 }
 
-.project_list{
+.project__list{
     list-style: circle;
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
-.project_list_item{
+.project__list__item{
     margin-left: 1rem;
 }
 
-.project_slider_container{
+.project__slider__container{
     position: relative;
     display: flex;
     justify-content: start;
@@ -233,11 +233,11 @@
     border: 1px solid #c2c2c2;
 }
 
-.project_slider_sm{
+.project__slider__sm{
     display: none;
 }
 
-.project_slider{
+.project__slider{
     display: flex;
     justify-content: start;
     width: 700px;
@@ -245,13 +245,13 @@
     overflow: hidden;    
 }
 
-.project_slider_img{
+.project__slider__img{
     width: 100%;
     height: 100%;
     transform: unset;
 }
 
-.project_slide{
+.project__slide{
     position: absolute;
     top: 50%;
     display: block;
@@ -262,16 +262,16 @@
     z-index: 10;
 }
 
-#todolist_slider_prev{
+#todolist__slider__prev{
     left: 20px;
 }
 
-#todolist_slider_next{
+#todolist__slider__next{
     right: 20px;
 }
 
-.project_left_arrow,
-.project_right_arrow{
+.project__left__arrow,
+.project__right__arrow{
     position: absolute;
     color: #fff;
     font-size: 3rem;
@@ -279,16 +279,16 @@
     top: 2%;
 }
 
-.project_left_arrow{
+.project__left__arrow{
     left: 23%;
 }
 
-.project_right_arrow{
+.project__right__arrow{
     right: 23%;
 }
 
-.project_left_arrow:hover,
-.project_right_arrow:hover{
+.project__left__arrow:hover,
+.project__right__arrow:hover{
     cursor: pointer;
     color: var(--orange);
 }
@@ -302,7 +302,7 @@
     color: var(--light-blue);
 }
 
-.dark_blue{
+.dark-blue{
     color: var(--dark-blue);
     font-weight: bold;
     font-style: normal;

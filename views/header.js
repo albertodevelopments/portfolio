@@ -7,7 +7,7 @@ const header = {
     buildHeader: getLabel => {
 
         const headerHTML = `
-            <h1 class='header__h1'><span class='header__h1_main'>Portfolio</span> <span class='header__h1__trailing'>${getLabel('header.title')}</span></h1>
+            <h1 class='header__h1'><span class='header__h1__main'>Portfolio</span> <span class='header__h1__trailing'>${getLabel('header.title')}</span></h1>
             <nav class='header__nav'>
                 <ul class='header__nav__menu'>
                     <li class='header__nav__menu__item'>

@@ -6,26 +6,26 @@
 const aboutPage = {
     buildAboutPage: getLabel => {
         const aboutHTML = `
-            <article class='root_body'>
-                <h1 class='root_body_h1'>${getLabel('about.title')}</h1>
-                <div class='root_body_about'>
-                    <img src='../assets/img/portrait.jpg' class='about_img'>
+            <article class='root__body'>
+                <h1 class='root__body__h1'>${getLabel('about.title')}</h1>
+                <div class='root__body__about'>
+                    <img src='../assets/img/portrait.jpg' class='about__img'>
                     <div>
-                        <p class='about_paragraph'>
+                        <p class='about__paragraph'>
                             ${getLabel('about.paragraph1')}
                         </p>
-                        <p class='about_paragraph'>
+                        <p class='about__paragraph'>
                             ${getLabel('about.paragraph2')}
                         </p>
-                        <p class='about_paragraph'>
+                        <p class='about__paragraph'>
                             ${getLabel('about.paragraph3')}
                         </p>
-                        <p class='about_paragraph'>
-                            <ul class='about_list'>
-                                <li class='about_list_item'>
+                        <p class='about__paragraph'>
+                            <ul class='about__list'>
+                                <li class='about__list__item'>
                                     <a class='link' target=_blank href=${getLabel('about.linkedin.link')}>${getLabel('about.linkedin.text')}</a>
                                 </li>
-                                <li class='about_list_item'>
+                                <li class='about__list__item'>
                                     ${getLabel('about.email.text')}${getLabel('about.email')}
                                 </li>
                             </ul>
@@ -38,9 +38,9 @@ const aboutPage = {
         aboutPage.setAboutAsCurrentSelection()
     },
     setAboutAsCurrentSelection: () => {
-        document.getElementById('curriculum').classList.remove('dark_blue')
-        document.getElementById('about').classList.add('dark_blue')
-        document.getElementById('projects').classList.remove('dark_blue')
+        document.getElementById('curriculum').classList.remove('dark-blue')
+        document.getElementById('about').classList.add('dark-blue')
+        document.getElementById('projects').classList.remove('dark-blue')
     }
     
 }

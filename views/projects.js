@@ -6,18 +6,18 @@
 const projectsPage = {
     buildProjectsPage: getLabel => {
         const projectsHTML = `
-            <article class='root_body_project'>
-                <h1 class='root_body_h1'>${getLabel('projects.title')}</h1>
-                <div class='projects_img_row'>
+            <article class='root__body__project'>
+                <h1 class='root__body__h1'>${getLabel('projects.title')}</h1>
+                <div class='projects__img__row'>
                     <div>
-                        <a href='#/projects/todolist'><img id='todolist' src='../assets/img/todolist/principal.png' class='projects_project_img'></a>
-                        <h2 class='projects_project_title'>${getLabel('projects.project1.title')}</h2>
-                        <p class='projects_project_description'>${getLabel('projects.project1.description')}</p>
+                        <a href='#/projects/todolist'><img id='todolist' src='../assets/img/todolist/principal.png' class='projects__project__img'></a>
+                        <h2 class='projects__project__title'>${getLabel('projects.project1.title')}</h2>
+                        <p class='projects__project__description'>${getLabel('projects.project1.description')}</p>
                     </div>
                     <div>
-                        <img src='../assets/img/todolist/principal.png' class='projects_project_img'>
-                        <h2 class='projects_project_title'>${getLabel('projects.project1.title')}</h2>
-                        <p class='projects_project_description'>${getLabel('projects.project1.description')}</p>
+                        <img src='../assets/img/todolist/principal.png' class='projects__project__img'>
+                        <h2 class='projects__project__title'>${getLabel('projects.project1.title')}</h2>
+                        <p class='projects__project__description'>${getLabel('projects.project1.description')}</p>
                     </div>
                 </div>
             </article>
@@ -26,8 +26,8 @@ const projectsPage = {
         projectsPage.setProjectsAsCurrentSelection()
     },
     setProjectsAsCurrentSelection: () => {
-        document.getElementById('curriculum').classList.remove('dark_blue')
-        document.getElementById('about').classList.remove('dark_blue')
-        document.getElementById('projects').classList.add('dark_blue')
+        document.getElementById('curriculum').classList.remove('dark-blue')
+        document.getElementById('about').classList.remove('dark-blue')
+        document.getElementById('projects').classList.add('dark-blue')
     }
 }

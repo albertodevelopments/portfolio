@@ -31,40 +31,40 @@
         padding: 0.1 0.15rem;
     }
 
-    .root_body{
+    .root__body{
         width: 80%;
     }
 
-    .root_body_h1{
+    .root__body__h1{
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 1.8rem;
     }
 
-    .about_img{
+    .about__img{
         width: 250px;
         height: 250px;
         margin-right: 1.5rem;
         margin-bottom: 1.5rem;
     }
 
-    .curriculum_h2{
+    .curriculum__h2{
         font-size: 1.3rem;
     }
 
-    .curriculum_h3{
+    .curriculum__h3{
         font-size: 1.1rem;
     }
 
-    .root_body_project{
+    .root__body__project{
         width: 80%;
     }
 
-    .projects_project_title{
+    .projects__project__title{
         font-size: 1.2rem;
     }
 
-    .projects_project_description{
+    .projects__project__description{
         font-size: 0.9rem;
     }
 
@@ -79,67 +79,75 @@
         display: none;
     }
 
-    .root_body{
+    .header__nav__menu__item__a{
+        margin-right: 0.5rem;
+    }
+
+    .header__nav__menu__language{
+        margin-left: 0.5rem;
+    }
+
+    .root__body{
         width: 90%;
     }
 
-    .root_body_h1{
+    .root__body__h1{
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 1.6rem;
     }
 
-    .about_img{
+    .about__img{
         width: 200px;
         height: 200px;
         margin-right: 1rem;
         margin-bottom: 1rem;
     }
 
-    .about_paragraph,
-    .about_list_item{
+    .about__paragraph,
+    .about__list__item{
         font-size: 0.9rem;
     }
 
-    .curriculum_h2{
+    .curriculum__h2{
         font-size: 1.1rem;
     }
 
-    .curriculum_h3{
+    .curriculum__h3{
         font-size: 1rem;
     }
 
-    .curriculum_paragraph,
-    .curriculum_paragraph_list_line{
+    .curriculum__paragraph,
+    .curriculum__paragraph__list__line{
         font-size: 0.9rem;
     }
 
-    .root_body_project{
+    .root__body__project{
         width: 90%;
     }
 
-    .projects_project_title{
+    .projects__project__title{
         font-size: 1.1rem;
     }
 
-    .projects_project_description{
+    .projects__project__description{
         font-size: 0.8rem;
     }
 
-    .project_slider_container,
-    .project_slider{
+    .project__slider__container,
+    .project__slider{
         width: 600px;
     }
 
-    .project_slider_img{
+    .project__slider__img{
         transform: unset;
     }
 
-    .project_detail_h2{
+    .project__detail__h2{
         font-size: 1.1rem;
     }
 
-    .project_description{
+    .project__description{
         font-size: 0.9rem;
     }
 }
@@ -183,8 +191,8 @@
         display: none;
     }
 
-    .project_slider_container,
-    .project_slider{
+    .project__slider__container,
+    .project__slider{
         width: 500px;
     }    
 }
@@ -235,21 +243,21 @@
         padding: 0;        
     }
 
-    .root_body{
+    .root__body{
         width: 100%;
         min-height: 100vh;
         margin-top: 0;
     }
 
-    .root_body_about{
+    .root__body__about{
         flex-direction: column;
     }
 
-    .about_img{
+    .about__img{
         margin-left: 1rem;
     }
 
-    .root_body_project{
+    .root__body__project{
         width: 100%;
         min-height: 100vh;
         margin: 0;
@@ -270,77 +278,77 @@
         margin: 0.5rem 0 1rem 1rem;
     }
 
-    .root_body{
+    .root__body{
         padding: 1rem;
     }
 
-    .about_img,
-    .about_paragraph{
+    .about__img,
+    .about__paragraph{
         margin: 0.5rem;
     }
 
-    .curriculum_h3,
-    .curriculum_paragraph{
+    .curriculum__h3,
+    .curriculum__paragraph{
         margin-left: 0.5rem;
     }
 
-    .curriculum_paragraph_list{
+    .curriculum__paragraph__list{
         margin-left: 0.8rem;
     }
 
-    .projects_project_title{
+    .projects__project__title{
         margin-top: 1rem;
     }
 
-    .projects_img_row{
+    .projects__img__row{
         grid-template-columns: 1fr;
     }
 
-    .project_slider_sm{
+    .project__slider__sm{
         display: flex;
         justify-content: start;
         overflow: hidden;    
     }
 
-    .project_slider{
+    .project__slider{
         display: none;
     }
 
-    .project_slider_container,
-    .project_slider-sm{
+    .project__slider__container,
+    .project__slider-sm{
         width: 360px;
     }
 
-    .project_slide{
+    .project__slide{
         top: 50%;
         width: 30px;
         height: 30px;
     }
 
-    .project_left_arrow,
-    .project_right_arrow{
+    .project__left__arrow,
+    .project__right__arrow{
         font-size: 1.8rem;
     }
 
-    #todolist_slider_prev{
+    #todolist__slider__prev{
         left: 12px;
     }
     
-    #todolist_slider_next{
+    #todolist__slider__next{
         right: 12px;
     }
 
-    .project_left_arrow,
-    .project_right_arrow{
+    .project__left__arrow,
+    .project__right__arrow{
         z-index: 20;
         top: 10%;
     }
 
-    .project_left_arrow{
+    .project__left__arrow{
         left: 30%;
     }
 
-    .project_right_arrow{
+    .project__right__arrow{
         right: 25%;
     }
 }
@@ -365,70 +373,70 @@
         font-size: 0.75rem;
     }
 
-    .root_body_h1{
+    .root__body__h1{
         font-size: 1.4rem;
     }
 
-    .about_paragraph,
-    .about_list_item,
-    .curriculum_paragraph,
-    .curriculum_paragraph_list,
-    .curriculum_paragraph_list_line,
-    .project_description,
-    .project_list_item{
+    .about__paragraph,
+    .about__list__item,
+    .curriculum__paragraph,
+    .curriculum__paragraph__list,
+    .curriculum__paragraph__list__line,
+    .project__description,
+    .project__list__item{
         font-size: 0.8rem;
     }
 
-    .about_img{
+    .about__img{
         width: 150px;
         height: 150px;
     }
 
-    .curriculum_h2,
-    .project_detail_h2{
+    .curriculum__h2,
+    .project__detail__h2{
         font-size: 1rem;
     }
 
-    .curriculum_h3{
+    .curriculum__h3{
         font-size: 0.9rem;
     }
     
-    .project_slider_container,
-    .project_slider-sm{
+    .project__slider__container,
+    .project__slider-sm{
         width: 250px;
         height: 150px;
     }
 
-    .project_slide{
+    .project__slide{
         top: 50%;
         width: 20px;
         height: 20px;
     }
 
-    .project_left_arrow,
-    .project_right_arrow{
+    .project__left__arrow,
+    .project__right__arrow{
         font-size: 1rem;        
     }
 
-    #todolist_slider_prev{
+    #todolist__slider__prev{
         left: 10px;
     }
     
-    #todolist_slider_next{
+    #todolist__slider__next{
         right: 10px;
     }
 
-    .project_left_arrow,
-    .project_right_arrow{
+    .project__left__arrow,
+    .project__right__arrow{
         z-index: 20;
         top: 15%;
     }
 
-    .project_left_arrow{
+    .project__left__arrow{
         left: 30%;
     }
 
-    .project_right_arrow{
+    .project__right__arrow{
         right: 25%;
     }
 }
