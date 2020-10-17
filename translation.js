@@ -8,30 +8,6 @@ const translation = {
     translationsArray: [],
     language: 'es-ES',
     
-    // Construimos el array con todas las traducciones
-    // buildTranslationsArray: language => {
-    //     fetch(translation.translationsFile)
-    //         .then(result => result.json())
-    //         .then(response => {
-    //             translation.translationsArray = response.labels.map(label => {
-    //                 const obj = {}
-    //                 obj.label = label.label
-    //                 obj.translation = label[language]
-    //                 return obj
-    //             })   
-    //         translation.buildPageLabels()                        
-    //     })        
-    // },
-    // getLabel: label => {
-    //     const translationObject = translation.translationsArray.find(
-    //         labelObject => labelObject.label === label        
-    //     )
-    //     return translationObject.translation
-    // },
-    // buildPageLabels: () => {
-    //     header.buildHeader(translation.getLabel)
-    //     aboutPage.buildAboutPage(translation.getLabel)
-    // }
     buildTranslationsArray: () => {
         translation.translationsArray['es-ES'] = new Array()
         translation.translationsArray['en-US'] = new Array()
